@@ -1,0 +1,234 @@
+/* App.css */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f3f3f5;
+    color: #d1d5db;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8fa;
+    border-bottom: 3px solid #555;
+    border-bottom-color: #acb4c0;
+    border-radius: 2rem;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    color: #15a02c;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: 150px;
+    /* Set desired width */
+    height: 50px;
+    /* Set desired height */
+    object-fit: contain;
+    /* Maintain aspect ratio and fit within dimensions */
+}
+
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.upload-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2b32;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.upload-popup h3 {
+    margin-top: 0;
+    color: #15a02c;
+}
+
+.upload-popup button {
+    margin-top: 1rem;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    height: calc(100vh - 120px);
+    /* Full height minus the header and input area */
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+    padding-bottom: 5rem;
+    /* Add space for the input field at the bottom */
+    box-sizing: border-box;
+    /* Ensure padding is included in height calculation */
+}
+
+/* Hide the scrollbar */
+.chat-container::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-message {
+    display: flex;
+    align-items: center;
+    /* Align icon and text vertically in the center */
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+    background-color: #f3f3f5;
+}
+
+.user-icon {
+    margin-right: 15px;
+    /* Space between the icon and the message text */
+    display: flex;
+    align-items: center;
+}
+
+.user-icon .fa-user-circle {
+    color: #10a37f;
+    /* Icon color */
+    border-radius: 50%;
+    /* Make the icon round */
+    background-color: #38ca75;
+    /* White background for the circular icon */
+    padding: 5px;
+    /* Add some space inside the icon */
+}
+
+.user-avatar {
+    width: 40px;
+    /* Set desired width */
+    height: 40px;
+    /* Set desired height */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image scales nicely inside the container */
+    margin-right: 10px;
+    /* Adds spacing between the icon and text */
+}
+
+
+.message-text {
+    color: #000000;
+    /* Text color for the message */
+    font-size: 1rem;
+    /* Font size for the message text */
+}
+
+
+
+.input-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    background-color: #f8f8fa;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d4d6df;
+    color: #0d0d0e;
+}
+
+.input-container button {
+    background-color: #15a02c;
+    color: #ffffff;
+    border: none;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #15a02c;
+}
+
+/* App.css */
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.upload-btn {
+    background-color: #15a02c;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.file-name-btn {
+    background: none;
+    color: #10a37f;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.file-name-btn:hover {
+    color: #0d7a62;
+}
+
+.upload-btn:hover {
+    background-color: #0d7a62;
+}
+
+.send-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #4CAF50;
+    padding: 10px;
+}
+
+.send-btn:hover {
+    color: #45a049;
+}
+
+.user-avatar-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #15a02c;
+    /* You can choose any color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
