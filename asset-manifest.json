@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AI_frontend/static/css/main.39e16dc7.css",
+    "main.js": "/AI_frontend/static/js/main.80d93f2b.js",
+    "static/media/image.jpg": "/AI_frontend/static/media/image.04bc31e309ec08ce78f6.jpg",
+    "index.html": "/AI_frontend/index.html",
+    "main.39e16dc7.css.map": "/AI_frontend/static/css/main.39e16dc7.css.map",
+    "main.80d93f2b.js.map": "/AI_frontend/static/js/main.80d93f2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39e16dc7.css",
+    "static/js/main.80d93f2b.js"
+  ]
+}
