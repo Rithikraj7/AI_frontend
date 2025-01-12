@@ -4,7 +4,7 @@ import { faPaperPlane, faPlus } from '@fortawesome/free-solid-svg-icons';
 import userImage from './assets/image.jpg';
 import "./App.css";
 
-const BASE_URL = "https://ai-backend-78zp.onrender.com";
+const BASE_URL = "https://ai-backend-htqj.onrender.com";
 
 const App = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
